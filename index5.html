@@ -77,6 +77,8 @@
 
     <section class="columna2" id="mainPanel">
 
+        <input type="image" src="btn.png" onclick="openSidePanel()"/>
+
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, harum, libero. Amet autem, debitis doloremque ducimus eligendi hic laboriosam, minus mollitia natus obcaecati odio officiis omnis quaerat ratione repudiandae voluptates.</section>
 
 </div>
@@ -102,6 +104,11 @@
         });
 
     }());
+
+    function openSidePanel()
+    {
+        sidePanel.classList.toggle('open');
+    }
 
 </script>
 
